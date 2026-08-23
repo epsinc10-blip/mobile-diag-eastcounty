@@ -1,5 +1,5 @@
 business_name: "East County Mobile Auto Diagnostics"
-twilio_number: "(760) 555-0199"
+twilio_number: "(619) 777-5434"
 city: "East County"
 state: "CA"
 subniche: "mobile auto diagnostics"
@@ -21,7 +21,7 @@ service_area_cities:
   - Poway
   - Alpine
   - Jamul
-phone_visible: "(760) 555-0199"
-phone_href: "tel:+17605550199"
-phone_e164: "+1-760-555-0199"
+phone_visible: "(619) 777-5434"
+phone_href: "tel:+16197775434"
+phone_e164: "+1-619-777-5434"
 domain: "https://mobile-diag-eastcounty.netlify.app"
