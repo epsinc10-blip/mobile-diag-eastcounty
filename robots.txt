@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mobile-diag-eastcounty.netlify.app/sitemap.xml
