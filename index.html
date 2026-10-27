@@ -70,8 +70,11 @@
     .accent { color: #ffc400; }
     .hero-photo { max-width: 810px; margin: 1rem auto 0; }
     .hero-photo img { display: block; width: 100%; height: auto; border-radius: 12px; }
-    .hero-photo figcaption { color: #cbd5e1; text-align: left; font-size: .75rem; margin-top: .4rem; }
     .hero-actions { margin-bottom: .75rem; }
+    .hero:has(.hero-photo) { padding-bottom: 1rem; }
+    .hero-photo { margin-bottom: 0; }
+    .hero:has(.hero-photo) + .section { padding-top: 1.15rem; }
+    @media (max-width: 640px) { .hero:has(.hero-photo) { padding-bottom: .45rem; } .hero:has(.hero-photo) + .section { padding-top: .85rem; } }
     .hero { background: #101a2a; text-align: center; padding: 2.6rem 1rem; }
     .hero h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.13; }
     .hero .trustline { max-width: 820px; margin: 0 auto .65rem; font-size: 1rem; }
